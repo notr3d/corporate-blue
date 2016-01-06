@@ -4,6 +4,7 @@
 
 @import "header.less";
 @import "about.less";
+@import "footer.less";
 
 @blue:#29c5e6;
 @grey:#b6b6b6;
@@ -30,4 +31,18 @@ input, button {
   ont-family: Oswald, sans-serif;
   cursor: pointer;
   outline: none;
+}
+
+.page-logo {
+  width: 160px;
+  height: 40px;
+  background: url(img/page-logo.png) no-repeat center;
+  background-size: contain;
+  display: inline-block;
+  &--footer {
+    margin-top: 30px;
+    width: 220px;
+    background-position: 100% 50%;
+    background-image: url(img/page-logo-footer.png);
+  }
 }
